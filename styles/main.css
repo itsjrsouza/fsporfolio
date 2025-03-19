@@ -25,6 +25,7 @@ main {
     }
     
     h4 {
+        padding-top: 56px;
         color: var(--base-gray-500);
     }
     
@@ -49,27 +50,15 @@ main {
 
 .code-icon {
     position: absolute;
-    top: 62%;
-    left: 62%;
+    top: 80%;
+    left: 75%;
 
     width: 31px;
     height: 25px;
 }
 
-.circule {
-    width: 112px;
-    height: 112px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    border-radius: 50%;
-    border: 2px solid var(--main-red);
-}
-
 .profile {
-    width: 87.27px;
+    width: 120px;
     border-radius: 50%;
 
     object-fit: cover;
