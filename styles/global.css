@@ -61,10 +61,10 @@ span {
     color: var(--main-red);
 }
 
-#gap-16 {
-    gap: 16px;
+#grid-16 {
+    grid: 16px;
 }
 
-#gap-24 {
-    gap: 24px;
+#grid-24 {
+    grid: 24px;
 }

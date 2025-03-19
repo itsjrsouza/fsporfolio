@@ -18,6 +18,21 @@ main {
     align-items: center;
 
     margin-inline: auto;
+    
+    h1, h4, p {
+        text-align: center;
+        max-width: 680px;
+    }
+    
+    h4 {
+        color: var(--base-gray-500);
+    }
+    
+    p {
+        font: var(--text-sm);
+        color: var(--base-gray-400);
+        padding: 20px 0 80px;
+    }
 }
 
 .avatar {
@@ -61,20 +76,6 @@ main {
     aspect-ratio: 1/1;
 }
 
-h1, h4, p {
-    text-align: center;
-    max-width: 680px;
-}
-
-h4 {
-    color: var(--base-gray-500);
-}
-
-p {
-    font: var(--text-sm);
-    color: var(--base-gray-400);
-    padding: 20px 0 80px;
-}
 
 .tags {
     margin: 0 auto 27px ;
@@ -99,6 +100,9 @@ p {
         color: var(--base-gray-500);
     }
 
+    li:hover {
+        border: 1.5px solid var(--base-gray-400)
+    }
 }
 
 .caret {

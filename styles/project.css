@@ -1,4 +1,4 @@
-#project {
+.project {
     padding: 72px 120px 144px;
 
     display: flex;
@@ -6,7 +6,7 @@
     align-items: center;
 
     background-color: #16181D;
-}
+
 
 header {
     display: flex;
@@ -43,9 +43,10 @@ p {
     padding-top: 8px;
 }
 
-span {
-    font: var(--title-sm);
+h3 {
     padding-top: 20px;
+}
+
 }
 
 .projects {
@@ -56,27 +57,31 @@ span {
     grid-template-rows: repeat(2, 1fr);
 
     gap: 24px;
-}
 
-figure {
-    width: 330px;
-    height: 280px;
-
-    display: flex;
-    flex-direction: column;
-
-    padding: 12px 12px 0 12px;    
-
-    border: 8px;
-    background-color: var(--base-gray-300);
-    border-radius: 8px;
-}
-
-.projects img {
-    width: 306px;
-    height: 156px;
+    figure {
+        width: 330px;
+        height: 280px;
     
-    object-fit: cover;
+        display: flex;
+        flex-direction: column;
+    
+        padding: 12px 12px 0 12px;    
+    
+        border: 8px;
+        background-color: var(--base-gray-300);
+        border-radius: 8px;
+    }
+    
+    img {
+        width: 306px;
+        height: 156px;
+        
+        object-fit: cover;
+    
+        border-radius: 8px;
+    }
 
-    border-radius: 8px;
+    figure:hover {
+        border: 1.5px solid var(--base-gray-400);
+    }
 }
