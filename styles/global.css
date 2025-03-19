@@ -24,12 +24,47 @@
     --subtitle-font-family: 'Inconsolata', sans-serif;
     --text-font-family: 'Maven Pro', sans-serif;
     
-    --title-lg: 700 56px/120% var (--title-font-family);
-    --title-md: 700 24px/120% var (--title-font-family);
-    --title-sm: 700 16px/120% var (--title-font-family);
+    --title-lg: 700 56px/120% var(--title-font-family);
+    --title-md: 700 24px/120% var(--title-font-family);
+    --title-sm: 700 16px/120% var(--title-font-family);
 
-    --subtitle-df: 400 20px/120% var (--subtitle-font-family);
+    --subtitle-df: 400 20px/120% var(--subtitle-font-family);
 
-    --text-md: 400 16px/140% var (--text-font-family);
-    --text-sm: 400 14px/140% var (--text-font-family);
+    --text-md: 400 16px/140% var(--text-font-family);
+    --text-sm: 400 14px/140% var(--text-font-family);
+}
+body {
+    width: 100%;
+    
+}
+
+h1 {
+    font: var(--title-lg);
+    color: var(--base-gray-600);
+}
+
+h2 {
+    font: var(--title-md);
+    color: var(--base-gray-600);
+}
+
+h3 {
+    font: var(--title-sm);
+    color: var(--base-gray-600);
+}
+
+h4 {
+    font: var(--subtitle-df);
+}
+
+span {
+    color: var(--main-red);
+}
+
+#gap-16 {
+    gap: 16px;
+}
+
+#gap-24 {
+    gap: 24px;
 }
